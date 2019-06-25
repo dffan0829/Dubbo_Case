@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="dubbo-service-consumer">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <dependent-module archiveName="dubbo-service-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dubbo-service-interface/dubbo-service-interface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="dubbo-service-consumer"/>
+        <property name="java-output-path" value="/dubbo-service-consumer/target/classes"/>
+    </wb-module>
+</project-modules>
